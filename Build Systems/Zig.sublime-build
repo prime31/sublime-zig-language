@@ -35,6 +35,12 @@
             "name": "Build Project"
         },
         {
+            "cmd": ["zig", "build", "run"],
+            "selector": "source.zig",
+            "working_dir": "$folder",
+            "name": "Build and Run Project"
+        },
+        {
             "cmd": ["zig", "fmt", "$folder"],
             "selector": "source.zig",
             "name": "Format Project",
